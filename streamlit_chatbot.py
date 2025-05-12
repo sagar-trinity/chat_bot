@@ -5,6 +5,7 @@ from langgraph_email_bot import app, config  # Import from the LangGraph workflo
 st.set_page_config(page_title="LangGraph Email Chatbot", page_icon="📧")
 
 st.markdown("<h1 style='text-align: center; font-size: 30px;'>LangGraph Email Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='font-size: 28px;'>Agents: Email Sender, Weather Fetcher, Distance Fetcher</h2>", unsafe_allow_html=True)
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [SystemMessage(content="you are a bot")]
