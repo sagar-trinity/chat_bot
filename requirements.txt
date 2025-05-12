@@ -1,0 +1,201 @@
+aiohappyeyeballs==2.4.4
+aiohttp==3.11.11
+aiosignal==1.3.2
+altair @ file:///home/conda/feedstock_root/build_artifacts/altair-split_1734244716962/work
+annotated-types==0.7.0
+anyio==4.8.0
+asgiref==3.8.1
+asn1crypto==1.5.1
+asttokens==3.0.0
+async-timeout==4.0.3
+attrs==25.1.0
+backoff==2.2.1
+bcrypt==4.2.1
+beautifulsoup4==4.12.3
+blinker @ file:///home/conda/feedstock_root/build_artifacts/blinker_1731096409132/work
+boto3==1.36.7
+botocore==1.36.7
+Brotli @ file:///D:/bld/brotli-split_1725267609074/work
+build==1.2.2.post1
+cachetools==5.5.1
+certifi==2024.12.14
+cffi @ file:///D:/bld/cffi_1725560649097/work
+charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1735929714516/work
+chroma-hnswlib==0.7.6
+chromadb==0.5.18
+click @ file:///D:/bld/click_1734858834134/work
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+coloredlogs==15.0.1
+comm==0.2.2
+dataclasses-json==0.6.7
+debugpy==1.8.12
+decorator==5.1.1
+Deprecated==1.2.18
+distro==1.9.0
+durationpy==0.9
+exceptiongroup==1.2.2
+executing==2.2.0
+executor==23.2
+fastapi==0.115.7
+fasteners==0.19
+filelock==3.17.0
+flatbuffers==25.1.24
+frozenlist==1.5.0
+fsspec==2024.12.0
+gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1735887193964/work
+GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1735929639977/work
+google-auth==2.38.0
+googleapis-common-protos==1.66.0
+graphviz==0.20.3
+greenlet==3.1.1
+grpcio==1.70.0
+h11==0.14.0
+h2 @ file:///home/conda/feedstock_root/build_artifacts/h2_1738578511449/work
+hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
+httpcore==1.0.7
+httptools==0.6.4
+httpx==0.28.1
+httpx-sse==0.4.0
+huggingface-hub==0.27.1
+humanfriendly==10.0
+hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
+idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1733211830134/work
+importlib_metadata==8.5.0
+importlib_resources @ file:///home/conda/feedstock_root/build_artifacts/importlib_resources_1736252299705/work
+ipykernel==6.29.5
+ipython==8.31.0
+jedi==0.19.2
+Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1741263328855/work
+jiter==0.8.2
+jmespath==1.0.1
+jsonpatch==1.33
+jsonpointer==3.0.0
+jsonschema @ file:///home/conda/feedstock_root/build_artifacts/jsonschema_1733472696581/work
+jsonschema-specifications @ file:///tmp/tmpk0f344m9/src
+jupyter_client==8.6.3
+jupyter_core==5.7.2
+kubernetes==32.0.0
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-core==0.3.49
+langchain-openai==0.1.22
+langchain-text-splitters==0.2.4
+langgraph==0.3.22
+langgraph-checkpoint==2.0.23
+langgraph-codeact==0.1.0
+langgraph-prebuilt==0.1.7
+langgraph-sdk==0.1.51
+langsmith==0.1.147
+lxml==5.3.0
+markdown-it-py==3.0.0
+MarkupSafe @ file:///D:/bld/markupsafe_1733219610373/work
+marshmallow==3.26.0
+matplotlib-inline==0.1.7
+mcp==1.4.1
+mdurl==0.1.2
+mmh3==5.1.0
+monotonic==1.6
+mpmath==1.3.0
+msgpack==1.1.0
+multidict==6.1.0
+mypy-extensions==1.0.0
+narwhals @ file:///home/conda/feedstock_root/build_artifacts/narwhals_1741613434061/work
+nest-asyncio==1.6.0
+numpy==1.26.4
+oauthlib==3.2.2
+onnxruntime==1.20.1
+openai==1.60.2
+opentelemetry-api==1.29.0
+opentelemetry-exporter-otlp-proto-common==1.29.0
+opentelemetry-exporter-otlp-proto-grpc==1.29.0
+opentelemetry-instrumentation==0.50b0
+opentelemetry-instrumentation-asgi==0.50b0
+opentelemetry-instrumentation-fastapi==0.50b0
+opentelemetry-proto==1.29.0
+opentelemetry-sdk==1.29.0
+opentelemetry-semantic-conventions==0.50b0
+opentelemetry-util-http==0.50b0
+orjson==3.10.15
+ormsgpack==1.9.1
+overrides==7.7.0
+packaging==23.2
+pandas @ file:///D:/bld/pandas_1726878561601/work
+parso==0.8.4
+pillow @ file:///D:/bld/pillow_1735929734120/work
+pkgutil_resolve_name @ file:///home/conda/feedstock_root/build_artifacts/pkgutil-resolve-name_1733344503739/work
+platformdirs==4.3.6
+posthog==3.10.0
+prompt_toolkit==3.0.50
+propcache==0.2.1
+property-manager==3.0
+protobuf @ file:///D:/bld/protobuf_1731365470575/work/bazel-bin/python/dist/protobuf-5.28.3-cp310-abi3-win_amd64.whl#sha256=26647687dfa36e5b4fad9af12689e0ea76a0c37eb0e94b9c34b028dbdb5ca480
+psutil==6.1.1
+pure_eval==0.2.3
+pyarrow==19.0.1
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
+pydantic==2.10.6
+pydantic-settings==2.8.1
+pydantic_core==2.27.2
+pydeck @ file:///home/conda/feedstock_root/build_artifacts/pydeck_1738346561094/work
+Pygments==2.19.1
+PyPDF2==3.0.1
+PyPika==0.48.9
+pyproject_hooks==1.2.0
+pyreadline3==3.5.4
+PySocks @ file:///D:/bld/pysocks_1733217287171/work
+python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1733215673016/work
+python-dotenv==1.0.1
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1706886791323/work
+pywin32==308
+PyYAML @ file:///D:/bld/pyyaml_1737454681229/work
+pyzmq==26.2.0
+redshift-connector==2.1.5
+referencing @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_referencing_1737836872/work
+regex==2024.11.6
+requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1733217035951/work
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+rich==13.9.4
+rpds-py @ file:///D:/bld/bld/rattler-build_rpds-py_1740153103/work
+rsa==4.9
+s3transfer==0.11.2
+scramp==1.4.5
+shellingham==1.5.4
+six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
+smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1739781697784/work
+sniffio==1.3.1
+soupsieve==2.6
+SQLAlchemy==2.0.37
+sse-starlette==2.2.1
+stack-data==0.6.3
+starlette==0.45.3
+streamlit @ file:///home/conda/feedstock_root/build_artifacts/streamlit_1741740033449/work
+sympy==1.13.3
+tenacity==8.5.0
+tiktoken==0.8.0
+tokenizers==0.21.0
+toml @ file:///home/conda/feedstock_root/build_artifacts/toml_1734091811753/work
+tomli==2.2.1
+tornado @ file:///D:/bld/tornado_1732615925919/work
+tqdm==4.67.1
+traitlets==5.14.3
+typer==0.15.1
+typing-inspect==0.9.0
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
+tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1737541069190/work
+urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1734859416348/work
+uvicorn==0.34.0
+verboselogs==1.7
+watchdog @ file:///D:/bld/watchdog_1730492889998/work
+watchfiles==1.0.4
+wcwidth==0.2.13
+websocket-client==1.8.0
+websockets==14.2
+win_inet_pton @ file:///D:/bld/win_inet_pton_1733130564612/work
+wrapt==1.17.2
+xxhash==3.5.0
+yarl==1.18.3
+zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+zstandard==0.23.0
