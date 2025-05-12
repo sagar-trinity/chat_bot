@@ -9,6 +9,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
+    env:
+      APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
+      AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME }}
+      AZURE_OPENAI_API_EMBEDDING_MODEL: ${{ secrets.AZURE_OPENAI_API_EMBEDDING_MODEL }}
+      AZURE_OPENAI_DEPLOYMENT_NAME: ${{ secrets.AZURE_OPENAI_DEPLOYMENT_NAME }}
+      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+      AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_API_TYPE: ${{ secrets.OPENAI_API_TYPE }}
+      OPENAI_API_VERSION: ${{ secrets.OPENAI_API_VERSION }}
+      OPEN_WEATHER_API_KEY: ${{ secrets.OPEN_WEATHER_API_KEY }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
