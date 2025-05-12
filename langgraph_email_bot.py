@@ -15,12 +15,12 @@ from geopy.distance import geodesic
 import requests
 
 embeddings = AzureOpenAIEmbeddings(
-    model=constant.AZURE_OPENAI_API_EMBEDDING_MODEL,
-    azure_deployment=constant.AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME,
-    api_key=constant.AZURE_OPENAI_KEY,
-    openai_api_version=constant.OPENAI_API_VERSION,
-    azure_endpoint=constant.AZURE_OPENAI_ENDPOINT,
-    openai_api_type=constant.OPENAI_API_TYPE
+    model=AZURE_OPENAI_API_EMBEDDING_MODEL,
+    azure_deployment=AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME,
+    api_key=AZURE_OPENAI_KEY,
+    openai_api_version=OPENAI_API_VERSION,
+    azure_endpoint=AZURE_OPENAI_ENDPOINT,
+    openai_api_type=OPENAI_API_TYPE
 )
 
 openai.api_type = constant.OPENAI_API_TYPE
