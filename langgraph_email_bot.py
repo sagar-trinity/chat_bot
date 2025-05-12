@@ -13,6 +13,7 @@ from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic	
 import requests
+import os
 
 embeddings = AzureOpenAIEmbeddings(
     model=os.getenv("AZURE_OPENAI_API_EMBEDDING_MODEL"),
