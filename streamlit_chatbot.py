@@ -4,7 +4,7 @@ from langgraph_email_bot_1 import app, config  # Import from the LangGraph workf
 
 st.set_page_config(page_title="LangGraph Based Agentic Chatbot", page_icon="📧")
 
-st.markdown("<h1 style='text-align: center; font-size: 30px;'>LangGraph Email Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; font-size: 30px;'>LangGraph Based Agentic Chatbot</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; font-size: 20px;'>Agents: Email Sender, Weather Fetcher, Distance Fetcher</h2>", unsafe_allow_html=True)
 
 if "chat_history" not in st.session_state:
