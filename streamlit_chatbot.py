@@ -2,7 +2,7 @@ import streamlit as st
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langgraph_email_bot_1 import app, config  # Import from the LangGraph workflow file
 
-st.set_page_config(page_title="LangGraph Email Chatbot", page_icon="📧")
+st.set_page_config(page_title="LangGraph Based Agentic Chatbot", page_icon="📧")
 
 st.markdown("<h1 style='text-align: center; font-size: 30px;'>LangGraph Email Chatbot</h1>", unsafe_allow_html=True)
 st.markdown("<h2 style='text-align: center; font-size: 20px;'>Agents: Email Sender, Weather Fetcher, Distance Fetcher</h2>", unsafe_allow_html=True)
