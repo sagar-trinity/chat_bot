@@ -15,7 +15,7 @@ from geopy.distance import geodesic
 import requests
 
 embeddings = AzureOpenAIEmbeddings(
-    model=AZURE_OPENAI_API_EMBEDDING_MODEL,
+    model=os.getenv("AZURE_OPENAI_API_EMBEDDING_MODEL"),
     azure_deployment=AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME,
     api_key=AZURE_OPENAI_KEY,
     openai_api_version=OPENAI_API_VERSION,
