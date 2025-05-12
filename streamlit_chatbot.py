@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
-from langgraph_email_bot_1 import app, config  # Import from the LangGraph workflow file
+from langgraph_email_bot import app, config  # Import from the LangGraph workflow file
 
 st.set_page_config(page_title="LangGraph Based Agentic Chatbot", page_icon="📧")
 
