@@ -42,7 +42,7 @@ def mail(to: str, subject: str, body: str):
     mailserver = smtplib.SMTP('smtp.gmail.com', 587)
     mailserver.ehlo()
     mailserver.starttls()
-    mailserver.login('sg23official@gmail.com', app_password)
+    mailserver.login('sg23official@gmail.com', os.getenv("app_password"))
     mailserver.sendmail('sg23official@gmail.com', to, msg.as_string())
     mailserver.quit()
     return "email sent"
