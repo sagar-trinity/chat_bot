@@ -14,7 +14,7 @@ from geopy.geocoders import Nominatim
 from geopy.distance import geodesic	
 import requests
 import os
-print("Model:", os.getenv("AZURE_OPENAI_API_EMBEDDING_MODEL"))  # Should not be None
+
 embeddings = AzureOpenAIEmbeddings(
     model=os.getenv("AZURE_OPENAI_API_EMBEDDING_MODEL"),
     azure_deployment=os.getenv("AZURE_OPENAI_API_EMBEDDING_DEPLOYMENT_NAME"),
