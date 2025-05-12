@@ -68,7 +68,7 @@ def distance(place1: str, place2: str) -> str:
 @tool
 def get_weather(city: str) -> str:
     """Fetches the current weather for a given city using OpenWeatherMap API."""
-    api_key = open_weather_api_key
+    api_key = os.getenv("open_weather_api_key")
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     
     params = {"q": city, "appid": api_key, "units": "metric"}
