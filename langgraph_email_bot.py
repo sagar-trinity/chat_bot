@@ -41,7 +41,7 @@ def mail(to: str, subject: str, body: str):
     mailserver = smtplib.SMTP('smtp.gmail.com', 587)
     mailserver.ehlo()
     mailserver.starttls()
-    mailserver.login('sg23official@gmail.com', 'xyjb cvkv wajh ywkb')
+    mailserver.login('sg23official@gmail.com', app_password)
     mailserver.sendmail('sg23official@gmail.com', to, msg.as_string())
     mailserver.quit()
     return "email sent"
@@ -67,7 +67,7 @@ def distance(place1: str, place2: str) -> str:
 @tool
 def get_weather(city: str) -> str:
     """Fetches the current weather for a given city using OpenWeatherMap API."""
-    api_key = "abbe146a0b8b5752e7bac8cb38b6d109"
+    api_key = open_weather_api_key
     base_url = "http://api.openweathermap.org/data/2.5/weather"
     
     params = {"q": city, "appid": api_key, "units": "metric"}
